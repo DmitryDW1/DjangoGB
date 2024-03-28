@@ -1,0 +1,67 @@
+
+
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /prefix/ HTTP/1.1" 200 15
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py", line 15, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 15
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myproject\settings.py changed, reloading.
+INFO 2024-03-28 19:45:47,207 autoreload 6072 14272 Watching for file changes with StatReloader
+ERROR 2024-03-28 19:46:14,358 views 6072 11992 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py", line 15, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-03-28 19:46:14,362 basehttp 6072 11992 "GET /prefix/about/ HTTP/1.1" 200 27
+ERROR 2024-03-28 19:46:18,231 views 6072 11992 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\DmitryDW\PycharmProjects\DjangoProject\myproject\myapp\views.py", line 15, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-03-28 19:46:18,233 basehttp 6072 11992 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-03-28 19:46:19,549 views 6072 11992 Index page accessed
+INFO 2024-03-28 19:46:19,550 basehttp 6072 11992 "GET /prefix/ HTTP/1.1" 200 15
+INFO 2024-03-28 19:46:19,939 views 6072 11992 Index page accessed
+INFO 2024-03-28 19:46:19,940 basehttp 6072 11992 "GET /prefix/ HTTP/1.1" 200 15
+INFO 2024-03-28 19:54:06,949 autoreload 13068 5816 Watching for file changes with StatReloader
+WARNING 2024-03-28 19:54:10,275 log 13068 7840 Not Found: /
+WARNING 2024-03-28 19:54:10,276 basehttp 13068 7840 "GET / HTTP/1.1" 404 2169
+WARNING 2024-03-28 19:54:14,581 log 13068 7840 Not Found: /
+WARNING 2024-03-28 19:54:14,582 basehttp 13068 7840 "GET / HTTP/1.1" 404 2169
+WARNING 2024-03-28 19:54:15,524 log 13068 7840 Not Found: /
+WARNING 2024-03-28 19:54:15,525 basehttp 13068 7840 "GET / HTTP/1.1" 404 2169
+INFO 2024-03-28 19:54:42,516 autoreload 13068 5816 C:\Users\DmitryDW\PycharmProjects\DjangoGB\myproject\myproject\urls.py changed, reloading.
+INFO 2024-03-28 19:54:43,892 autoreload 8632 9264 Watching for file changes with StatReloader
+INFO 2024-03-28 19:54:46,711 views 8632 14632 Index page accessed
+INFO 2024-03-28 19:54:46,714 basehttp 8632 14632 "GET / HTTP/1.1" 200 15
