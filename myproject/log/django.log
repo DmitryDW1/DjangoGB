@@ -68,3 +68,103 @@ INFO 2024-03-28 19:54:46,714 basehttp 8632 14632 "GET / HTTP/1.1" 200 15
 INFO 2024-03-29 23:13:47,692 autoreload 7232 7908 Watching for file changes with StatReloader
 INFO 2024-03-29 23:15:21,779 autoreload 11988 9856 Watching for file changes with StatReloader
 INFO 2024-03-29 23:19:32,558 autoreload 3648 15592 Watching for file changes with StatReloader
+INFO 2024-04-04 22:53:11,355 autoreload 22160 14452 Watching for file changes with StatReloader
+WARNING 2024-04-04 22:53:20,409 log 22160 19124 Not Found: /
+WARNING 2024-04-04 22:53:20,411 basehttp 22160 19124 "GET / HTTP/1.1" 404 2280
+WARNING 2024-04-04 22:53:21,219 log 22160 19124 Not Found: /favicon.ico
+WARNING 2024-04-04 22:53:21,221 basehttp 22160 19124 "GET /favicon.ico HTTP/1.1" 404 2331
+INFO 2024-04-04 22:53:49,705 basehttp 22160 19124 "GET /lection2 HTTP/1.1" 301 0
+INFO 2024-04-04 22:53:49,751 views 22160 19472 Index page accessed
+INFO 2024-04-04 22:53:49,752 basehttp 22160 19472 "GET /lection2/ HTTP/1.1" 200 15
+WARNING 2024-04-04 22:53:57,491 log 22160 19472 Not Found: /lection3
+WARNING 2024-04-04 22:53:57,493 basehttp 22160 19472 "GET /lection3 HTTP/1.1" 404 2322
+WARNING 2024-04-04 22:55:20,094 log 22160 19472 Not Found: /lection3/
+WARNING 2024-04-04 22:55:20,095 basehttp 22160 19472 "GET /lection3/ HTTP/1.1" 404 2570
+INFO 2024-04-04 22:55:34,433 autoreload 22160 14452 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-04 22:55:35,468 autoreload 11792 18216 Watching for file changes with StatReloader
+WARNING 2024-04-04 22:55:37,334 log 11792 11356 Not Found: /lection3
+WARNING 2024-04-04 22:55:37,336 basehttp 11792 11356 "GET /lection3 HTTP/1.1" 404 2565
+WARNING 2024-04-04 22:55:41,014 log 11792 11356 Not Found: /lection3/
+WARNING 2024-04-04 22:55:41,015 basehttp 11792 11356 "GET /lection3/ HTTP/1.1" 404 2568
+WARNING 2024-04-04 22:55:44,021 log 11792 11356 Not Found: /lection3
+WARNING 2024-04-04 22:55:44,022 basehttp 11792 11356 "GET /lection3 HTTP/1.1" 404 2565
+WARNING 2024-04-04 22:56:04,197 log 11792 11356 Not Found: /lection3/hello
+WARNING 2024-04-04 22:56:04,198 basehttp 11792 11356 "GET /lection3/hello HTTP/1.1" 404 2583
+INFO 2024-04-04 22:56:19,640 autoreload 11792 18216 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-04 22:56:20,762 autoreload 15356 19064 Watching for file changes with StatReloader
+INFO 2024-04-04 22:56:24,201 basehttp 15356 13380 "GET /lection3/hello/ HTTP/1.1" 200 28
+INFO 2024-04-04 22:56:32,538 basehttp 15356 13380 "GET /lection3/hello2/ HTTP/1.1" 200 25
+INFO 2024-04-04 22:57:40,127 basehttp 15356 13380 "GET /lection3/hello2 HTTP/1.1" 301 0
+INFO 2024-04-04 22:57:40,174 basehttp 15356 6748 "GET /lection3/hello2/ HTTP/1.1" 200 25
+INFO 2024-04-04 23:00:05,254 autoreload 15356 19064 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:00:06,283 autoreload 16380 3152 Watching for file changes with StatReloader
+INFO 2024-04-04 23:01:05,446 autoreload 16380 3152 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:01:06,339 autoreload 8628 14220 Watching for file changes with StatReloader
+INFO 2024-04-04 23:03:02,866 autoreload 8628 14220 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:03:04,078 autoreload 18920 7472 Watching for file changes with StatReloader
+INFO 2024-04-04 23:09:21,235 autoreload 18920 7472 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:09:22,328 autoreload 7060 20544 Watching for file changes with StatReloader
+INFO 2024-04-04 23:10:58,159 autoreload 7060 20544 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:10:59,087 autoreload 3476 9868 Watching for file changes with StatReloader
+INFO 2024-04-04 23:11:56,064 autoreload 3476 9868 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:11:57,028 autoreload 7876 11708 Watching for file changes with StatReloader
+INFO 2024-04-04 23:12:57,817 autoreload 7876 11708 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:12:58,799 autoreload 19776 19968 Watching for file changes with StatReloader
+INFO 2024-04-04 23:13:07,754 autoreload 19776 19968 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:13:08,690 autoreload 17000 11308 Watching for file changes with StatReloader
+INFO 2024-04-04 23:13:19,772 autoreload 17000 11308 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:13:20,801 autoreload 19264 8124 Watching for file changes with StatReloader
+INFO 2024-04-04 23:13:47,681 autoreload 19264 8124 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:13:49,026 autoreload 3480 14468 Watching for file changes with StatReloader
+INFO 2024-04-04 23:15:30,297 autoreload 18224 11012 Watching for file changes with StatReloader
+INFO 2024-04-04 23:25:19,771 autoreload 9132 17436 Watching for file changes with StatReloader
+INFO 2024-04-04 23:39:45,508 autoreload 9132 17436 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:39:46,417 autoreload 5756 8968 Watching for file changes with StatReloader
+INFO 2024-04-04 23:40:24,606 autoreload 5756 8968 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:40:25,575 autoreload 16336 18572 Watching for file changes with StatReloader
+INFO 2024-04-04 23:42:30,198 autoreload 16336 18572 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:42:31,126 autoreload 13676 19160 Watching for file changes with StatReloader
+INFO 2024-04-04 23:43:58,089 autoreload 13676 19160 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:43:58,962 autoreload 20012 15752 Watching for file changes with StatReloader
+INFO 2024-04-04 23:44:43,402 autoreload 20012 15752 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:44:44,501 autoreload 3896 18864 Watching for file changes with StatReloader
+INFO 2024-04-04 23:45:03,935 autoreload 3896 18864 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:45:05,022 autoreload 8684 8968 Watching for file changes with StatReloader
+INFO 2024-04-04 23:45:36,952 autoreload 8684 8968 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:45:37,817 autoreload 19860 8368 Watching for file changes with StatReloader
+INFO 2024-04-04 23:46:37,857 autoreload 19860 8368 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:46:38,903 autoreload 7220 12852 Watching for file changes with StatReloader
+INFO 2024-04-04 23:47:02,491 autoreload 7220 12852 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:47:03,355 autoreload 7484 11668 Watching for file changes with StatReloader
+INFO 2024-04-04 23:47:26,938 autoreload 7484 11668 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:47:28,133 autoreload 1112 20564 Watching for file changes with StatReloader
+INFO 2024-04-04 23:47:53,846 autoreload 1112 20564 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:47:54,955 autoreload 14032 3724 Watching for file changes with StatReloader
+INFO 2024-04-04 23:47:59,777 autoreload 14032 3724 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:48:00,645 autoreload 8504 22216 Watching for file changes with StatReloader
+INFO 2024-04-04 23:48:13,739 autoreload 8504 22216 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:48:14,874 autoreload 8396 12108 Watching for file changes with StatReloader
+INFO 2024-04-04 23:53:56,129 autoreload 8396 12108 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-04 23:53:57,221 autoreload 10188 18112 Watching for file changes with StatReloader
+INFO 2024-04-04 23:54:22,926 autoreload 10188 18112 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:54:23,822 autoreload 14308 16212 Watching for file changes with StatReloader
+INFO 2024-04-04 23:55:09,241 autoreload 14308 16212 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:55:10,106 autoreload 19692 16856 Watching for file changes with StatReloader
+INFO 2024-04-04 23:55:44,069 autoreload 19692 16856 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:55:44,976 autoreload 9712 6592 Watching for file changes with StatReloader
+INFO 2024-04-04 23:56:08,503 autoreload 9712 6592 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:56:09,539 autoreload 21920 6576 Watching for file changes with StatReloader
+INFO 2024-04-04 23:56:28,903 autoreload 21920 6576 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:56:29,862 autoreload 18588 20604 Watching for file changes with StatReloader
+INFO 2024-04-04 23:56:34,649 autoreload 18588 20604 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:56:35,506 autoreload 9776 15432 Watching for file changes with StatReloader
+INFO 2024-04-04 23:57:10,563 autoreload 9776 15432 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:57:11,573 autoreload 484 14220 Watching for file changes with StatReloader
+INFO 2024-04-04 23:58:58,648 autoreload 484 14220 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:58:59,511 autoreload 8704 21488 Watching for file changes with StatReloader
+INFO 2024-04-04 23:59:10,526 autoreload 8704 21488 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:59:11,425 autoreload 1996 3164 Watching for file changes with StatReloader
+INFO 2024-04-04 23:59:36,990 autoreload 1996 3164 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-04 23:59:37,857 autoreload 10596 8212 Watching for file changes with StatReloader
+INFO 2024-04-05 00:03:28,092 autoreload 10596 8212 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-05 00:03:29,017 autoreload 6692 9008 Watching for file changes with StatReloader
