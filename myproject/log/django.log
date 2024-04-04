@@ -168,3 +168,9 @@ INFO 2024-04-04 23:59:36,990 autoreload 1996 3164 C:\Users\DmitryDW\Documents\Ge
 INFO 2024-04-04 23:59:37,857 autoreload 10596 8212 Watching for file changes with StatReloader
 INFO 2024-04-05 00:03:28,092 autoreload 10596 8212 C:\Users\DmitryDW\Documents\GeekBrains\DjangoGB\myproject\myapp3\views.py changed, reloading.
 INFO 2024-04-05 00:03:29,017 autoreload 6692 9008 Watching for file changes with StatReloader
+WARNING 2024-04-05 00:06:15,690 log 6692 19256 Not Found: /lection3/posts/
+WARNING 2024-04-05 00:06:15,692 basehttp 6692 19256 "GET /lection3/posts/ HTTP/1.1" 404 3235
+INFO 2024-04-05 00:06:32,607 basehttp 6692 19256 "GET /lection3/posts/2024 HTTP/1.1" 301 0
+INFO 2024-04-05 00:06:32,640 basehttp 6692 12160 "GET /lection3/posts/2024/ HTTP/1.1" 200 19
+INFO 2024-04-05 00:06:41,211 basehttp 6692 12160 "GET /lection3/posts/2024/3 HTTP/1.1" 301 0
+INFO 2024-04-05 00:06:41,246 basehttp 6692 18188 "GET /lection3/posts/2024/3/ HTTP/1.1" 200 21
