@@ -243,3 +243,7 @@ INFO 2024-04-07 00:30:41,559 autoreload 23132 15208 C:\Users\DmitryDW\Documents\
 INFO 2024-04-07 00:30:42,774 autoreload 19220 23408 Watching for file changes with StatReloader
 INFO 2024-04-07 00:31:17,759 basehttp 19220 17944 "GET / HTTP/1.1" 200 314
 INFO 2024-04-07 14:56:35,430 autoreload 24604 24820 Watching for file changes with StatReloader
+INFO 2024-04-07 14:57:18,424 basehttp 24604 3164 "GET /lection3 HTTP/1.1" 301 0
+INFO 2024-04-07 14:57:18,482 basehttp 24604 24752 "GET /lection3/ HTTP/1.1" 200 188
+INFO 2024-04-07 14:57:25,731 basehttp 24604 24752 "GET /lection3/author/5 HTTP/1.1" 200 1413
+INFO 2024-04-07 14:57:45,839 basehttp 24604 24752 "GET /lection3/post/49 HTTP/1.1" 200 705
