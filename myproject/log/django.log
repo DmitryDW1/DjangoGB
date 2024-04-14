@@ -820,3 +820,8 @@ INFO 2024-04-13 10:54:26,476 basehttp 9832 9220 "GET /admin/myapp5/product/2/cha
 INFO 2024-04-13 10:54:26,554 basehttp 9832 9220 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-04-13 10:54:26,711 basehttp 9832 3820 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
 INFO 2024-04-14 08:03:30,397 autoreload 5616 9960 Watching for file changes with StatReloader
+INFO 2024-04-14 08:03:37,728 basehttp 5616 9396 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15759
+INFO 2024-04-14 08:03:37,929 basehttp 5616 9396 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-04-14 08:03:38,027 basehttp 5616 15084 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-04-14 08:03:42,811 basehttp 5616 15084 "GET /admin/myapp3/author/ HTTP/1.1" 200 14134
+INFO 2024-04-14 08:03:42,884 basehttp 5616 15084 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
