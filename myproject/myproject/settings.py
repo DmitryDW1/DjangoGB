@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'myapp',
     'myapp2',
     'myapp3',
+    'myapp4',
+    'myapp5',
 ]
 
 MIDDLEWARE = [
@@ -111,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
@@ -125,6 +127,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -132,6 +137,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGGING = {
     'version': 1,
+    
     'disable_existing_loggers': False,
     'formatters': {
         'simple': {
@@ -151,6 +157,7 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': './log/django.log',
             'formatter': 'verbose',
+            'encoding': 'UTF-8',
         },
     },
     'loggers': {
