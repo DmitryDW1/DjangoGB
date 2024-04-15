@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from .views import user_form, many_fields_form, add_user, upload_image
 
 
